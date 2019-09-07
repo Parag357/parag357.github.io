@@ -1,0 +1,79 @@
+
+button{
+    color:#3B5998 
+}
+p{
+    color: black;
+}
+body
+{
+
+    text-align: center;
+    color: #6ca67c
+    
+}
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../img/jumbotronbackground.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #a83731;
+    text-shadow:#bfafb2 0.2em 0.2em 0.2em;
+    text-align: left;
+}
+
+    h2{
+        color: rgba(240, 166, 30, 0.795);
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    /* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+  
+  .fa-android {
+    background: #a4c639;
+    color: white;
+  }
+  .a {
+      color: #55ACEE
+  }
