@@ -1,16 +1,21 @@
-
+html, body
+{
+    height: 100%;
+    text-align: center;
+}
+#particles-js
+{
+    background: #000000;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+}
 button{
     color:#3B5998 
 }
 p{
     color: black;
-}
-body
-{
-
-    text-align: center;
-    color: #6ca67c
-    
 }
 .jumbotron {
     margin-bottom: 0px;
@@ -19,7 +24,6 @@ body
     background-size: cover;
     background-repeat: no-repeat;
     color: #a83731;
-    text-shadow:#bfafb2 0.2em 0.2em 0.2em;
     text-align: left;
 }
 
@@ -62,7 +66,7 @@ body
   }
   
   .fa-linkedin {
-    background: #007bb5;
+    background:transparent;
     color: white;
   }
   .fa-skype {
