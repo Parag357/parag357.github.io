@@ -1,2 +1,2 @@
 
-"# a static website developed with html,css and bootstrap" 
+"# a static website developed with html, css, js and bootstrap" 
