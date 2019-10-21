@@ -52,14 +52,14 @@
             </div>-->
             <div class="col-md-12">
                 <div class="container">
-                <div class="content jumbotron bg-dark">
+                <div class="content jumbotron bg-transparent">
                         <div class="row">
                                 <div class="col-md-3">
                                   <!-- small size -->
                         <a href="#img">
                         <img src="./assets/images/profile.png" alt="profile"width="200"height="200"  class="thumbnail">
                         </a>
-                        <!-- full size -->
+                        <!-- full size  image lightbox-->
                         <a href="#_" class="lightbox" id="img">
                         <img src="./assets/images/profile.png">
                         </a>
@@ -70,8 +70,20 @@
                         <div class="col-md-9">
                            <!-- <div class="content jumbotron bg-dark">
                                     <div class="row">-->
-                  <p> <h1 class="display-3" align="top"><font color="#ffffff">Parag Bhattacharjee</h1></p>
-                    <p><h3> Web Developer | Android App Developer</h3></b></p>
+                 <div id="text"> <!--<p> <h1 class="display-3" align="top"><font color="#ffffff">Parag Bhattacharjee</h1></p>--> </div>
+                  <script type="text/javascript">
+                    var i=0, text;
+                    text="Parag Bhattacharjee"
+                    function typing(){
+                      if(i<text.length){
+                        document.getElementById("text").innerHTML += text.charAt(i);
+                        i++;
+                        setTimeout(typing,50);
+                      }
+                    }
+                    typing()
+                    </script>
+                    <p><h3><font color ="white"> Web Developer | Android App Developer</font></h3></b></p>
                     </div></div></div></div>
                 </div>
             </div>
