@@ -45,8 +45,8 @@ button{
     line-height: 9em;
   }
   .button-hover:before {
-    content: attr(data-text);
-    color: #fff;
+   content: attr(data-text);
+    color: orange;
     position: absolute;
     top: -2.75em;
   }
@@ -92,6 +92,12 @@ p{
       max-width: 90%;
       max-height: 80%;
       margin-top: 2%;
+  }
+  .card-header{
+    color: white;
+  }
+  .card-body{
+    color: white;
   }
   .lightbox:target {
       outline: none;
@@ -160,7 +166,7 @@ p{
     color: white;
   }
   .a {
-      color: #55ACEE
+      color:  #d74894;
   }
   #text{
     color: white;
