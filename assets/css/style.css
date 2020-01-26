@@ -39,7 +39,8 @@ button{
   .button:hover,
   [class*="button-"]:hover {
     background:transparent;
-    //box-shadow: 0 0 3px rgba(0, 0, 0, 0.5) inset;
+    font-family: 'Righteous', cursive;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5) inset;
   }
   .button-hover:hover {
     line-height: 9em;
@@ -95,9 +96,16 @@ p{
   }
   .card-header{
     color: white;
+    font-family: 'Bowlby One SC', cursive;
   }
   .card-body{
-    color: white;
+    color:#2d862d;
+  }
+  .card-title{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+  }
+  .card{
+    padding: 20px;
   }
   .lightbox:target {
       outline: none;
@@ -172,8 +180,7 @@ p{
     color: white;
     font-size: 70px;
     text-align: left;
-    font-family: fantasy
-    font-weight: 100px;
+    font-family: 'Unlock', cursive;
   }
   .img-profile {
     width: 200px;
@@ -183,4 +190,31 @@ p{
     padding: 0.6rem;
     margin: 0.4rem;
     background-color: #1A1F2B;
+}
+#info{
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+.project-section{
+  font-family: 'Bowlby One SC', cursive;
+}
+.project {
+  margin-bottom: 0;
+}
+.projects h1 {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.text-uppercase{
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+.card{
+  border-width: thick;
+  border-color: #fff;
+  border-radius: 20px;
+}
+.navbar{
+  font-family: 'Righteous', cursive;
+}
+footer {
+  box-shadow: 0 50vh 0 50vh #000;
 }
