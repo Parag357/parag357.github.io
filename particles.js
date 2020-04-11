@@ -36,7 +36,7 @@ var pJS = function(tag_id, params){
           color: '#ff0000'
         },
         polygon: {
-          nb_sides: 5
+          nb_sides: 9
         },
         image: {
           src: '',
@@ -59,7 +59,7 @@ var pJS = function(tag_id, params){
         random: false,
         anim: {
           enable: false,
-          speed: 20,
+          speed: 200,
           size_min: 0,
           sync: false
         }

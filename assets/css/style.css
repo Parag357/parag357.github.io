@@ -1,8 +1,3 @@
-html, body
-{
-    height: 100%;
-    text-align: center;
-}
 #particles-js
 {
     background: #020e08;
@@ -10,6 +5,9 @@ html, body
     width: 100%;
     z-index: -1;
     position: fixed;
+}
+.navbar{
+  padding: 0 0 0 0;
 }
 button{
     color:#3B5998 
@@ -20,8 +18,8 @@ button{
     display: inline-block;
     overflow: hidden;
     float: left;
-    margin: 0 1em 1em 0;
-    padding: 0.5em;
+    margin: 0 0 0 0;
+    padding: 0em;
     height: 3.0em;
     font: 300 1em/3.5em 'Righteous', cursive;
     text-decoration: none;
@@ -55,8 +53,7 @@ button{
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #a83731;
-    text-align: left;
+    text-align: center;
 }
 .thumbnail {
     width: 200px;
@@ -65,13 +62,12 @@ button{
     border: 5px solid white;
     padding: 0.6rem;
     margin: 0.4rem;
-    background-color: #1A1F2B;
   }
 
   .lightbox {
       display: none;
       position: fixed;
-      z-index: 999;
+      z-index: 9999;
       width: 100%;
       height: 100%;
       text-align: center;
@@ -187,8 +183,8 @@ footer {
   font-family: 'Righteous', cursive;
 }
 .nav-item{
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
   font-size: 17px;
 }
 #college{
