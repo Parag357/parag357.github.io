@@ -297,6 +297,9 @@ footer {
 .sbutton.linkedin {
   background: #0e76a8;
 }
+.sbutton.mail {
+  background: #b23121;
+}
 /*text animation*/
 .textANI {
   font-size: 4vw;
