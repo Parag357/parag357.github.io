@@ -510,21 +510,12 @@ border: none;
   }
 }
 /*project cards*/
-/*
-  STYLE FOR CARD ROTATION
-*/
-
 .card {
   perspective: 100rem;
   -moz-perspective: 150rem;
   position: relative;
   height: 30rem;
 }
-
-
-/*
-STYLE FOR CARD ROTATION
-*/
 
 .card__side {
   background-color: #d6f5f5;
@@ -540,8 +531,6 @@ STYLE FOR CARD ROTATION
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   
 }
-
-
 /* 
 ROTATION OF CARD ON Y DIRECTION
 */
@@ -570,19 +559,9 @@ ROTATION OF CARD ON Y DIRECTION
   transform: rotateY(0deg);
 }
 
-
-/* 
-STYLE FOR FRONT SIDE CARD 
-*/
-
 .card__side--front {
   background-color: #fff;
 }
-
-
-/* 
-STYLE FOR CARD PICTURE
-*/
 
 .card__picture {
   background-size: cover;
@@ -593,12 +572,6 @@ STYLE FOR CARD PICTURE
   border-top-right-radius: 3px;
   
 }
-
-
-/* 
-STYLE FOR FRONT SIDE CARD HEADING
-*/
-
 .card__heading {
   font-size: 2.8rem;
   font-weight: 300;
@@ -617,12 +590,6 @@ STYLE FOR FRONT SIDE CARD HEADING
   background-color: #404040;
   opacity: .7;
 }
-
-
-/* 
-STYLE FOR COLUMNS 1 OF 3
-*/
-
 .container .col-1-of-3 {
   /*width: calc((100% - 2 * 6rem) / 3);*/
   width: 50%;
