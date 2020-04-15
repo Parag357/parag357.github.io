@@ -606,6 +606,7 @@ STYLE FOR FRONT SIDE CARD HEADING
   color: #f2f2f2;
   position: absolute;
   bottom: 0;
+ box-align: center;
   margin-bottom: 10px;
 }
 
@@ -625,7 +626,6 @@ STYLE FOR COLUMNS 1 OF 3
 .container .col-1-of-3 {
   /*width: calc((100% - 2 * 6rem) / 3);*/
   width: 50%;
-  display: block;
-  
+  display:inline-block block;
 }
 
