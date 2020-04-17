@@ -80,14 +80,14 @@ button{
       max-height: 90%;
       margin-top: 2%;
   }
-  .card-header{
+  .card2-header{
     color: white;
     font-family: 'Bowlby One SC', cursive;
   }
-  .card-body{
+  .card2-body{
     color:#2d862d;
   }
-  .card-title{
+  .card2-title{
     font-family: 'ZCOOL QingKe HuangYou', cursive;
   }
   .card2{
@@ -606,5 +606,22 @@ ROTATION OF CARD ON Y DIRECTION
   /*width: calc((100% - 2 * 6rem) / 3);*/
   width: 50%;
   display:inline-block block;
+}
+@media screen and (max-width: 700px) {
+  .container {
+    display: block;
+  }
+  .card{
+    height: 30px;
+  }
+  h1{
+    font-size:7vw;
+  }
+  h3{
+    font-size:5vw;
+  }
+  h5{
+    font-size:3vw;
+  }
 }
 
