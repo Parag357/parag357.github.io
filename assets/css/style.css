@@ -585,7 +585,10 @@ ROTATION OF CARD ON Y DIRECTION
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
   background-color: #404040;
+  font-size: xx-large;
   opacity: 100%;
+  font-family: 'Righteous', cursive;
+  border-radius: 10px;
 }
 .container .col-1-of-3 {
   /*width: calc((100% - 2 * 6rem) / 3);*/
@@ -601,6 +604,16 @@ ROTATION OF CARD ON Y DIRECTION
   }
   .card{
     height: 15rem;
+  }
+  .card__heading-span {
+    padding: 0rem 0rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background-color: #404040;
+    font-size: large;
+    opacity: 100%;
+    font-family: 'Righteous', cursive;
+    border-radius: 10px;
   }
   .container .col-1-of-3{
     width: 100%;
