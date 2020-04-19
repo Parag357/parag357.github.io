@@ -528,6 +528,7 @@ ROTATION OF CARD ON Y DIRECTION
 .card__side--back {
   transform: rotateY(180deg);
   border-radius: 30px;
+  color: #fff;
 }
 
 .card__back-content {
