@@ -529,6 +529,7 @@ ROTATION OF CARD ON Y DIRECTION
   transform: rotateY(180deg);
   border-radius: 30px;
   color: #fff;
+  font-family:'Righteous','cursive';
 }
 
 .card__back-content {
