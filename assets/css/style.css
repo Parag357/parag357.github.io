@@ -9,8 +9,8 @@
 .navbar{
   padding: 0 0 0 0;
 }
-button{
-    color:#3B5998 
+.nav-item{
+  color:#ff9800;
 }
 .button,
   [class*="button-"] {
@@ -35,14 +35,14 @@ button{
   .button:hover,
   [class*="button-"]:hover {
     background:transparent;
-    font-family: 'Righteous', cursive;
+    font-family: 'Righteous', cursive;  
   }
   .button-hover:hover {
     line-height: 10em;
   }
   .button-hover:before {
    content: attr(data-text);
-    color: black;
+    color: #ffc107;
     position: absolute;
     top: -2.75em;
   }
