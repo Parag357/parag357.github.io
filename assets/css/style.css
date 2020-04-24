@@ -413,18 +413,18 @@ a.repeat:hover {
  
 	80% {
 		transform: translate(20px, 0) scale(1);
-		color: #fff;
+		color: #ccff00;
 	}
  
 	99% {
 		transform: translate(0) scale(1.2);
-		color: #ffc107;
+		color: #aaf0d1;
 	}
  
 	100% {
 		transform: translate(0) scale(1);
 		opacity: 1;
-		color: #fff;
+		color: #ffc107;
 	}
 }
 /*certificates*/
