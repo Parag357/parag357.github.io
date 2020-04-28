@@ -188,6 +188,9 @@ footer:hover{
   color: white;
   font-family: 'Playfair Display SC', serif;  
 }
+#college1{
+  font-family: 'Bowlby One SC', cursive;
+}
 #college:hover{
   color: #ffc107;
 }
