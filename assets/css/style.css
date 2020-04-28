@@ -23,7 +23,7 @@ hr{
     display: inline-block;
     overflow: hidden;
     height: 3.0em;
-    font: 300 1em/3.5em 'Righteous', cursive;
+    font: 300 1em/3.5em 'Lobster', cursive;
     text-decoration: none;
     letter-spacing: .08em;
     color: #fff;
@@ -37,7 +37,7 @@ hr{
   .button:hover,
   [class*="button-"]:hover {
     background:transparent;
-    font-family: 'Righteous', cursive;  
+    font-family: 'Lobster', cursive;
   }
   .button-hover:hover {
     line-height: 10em;
@@ -69,7 +69,7 @@ hr{
   .lightbox {
       display: none;
       position: fixed;
-      z-index: 9999;
+      z-index: 999;
       width: 100%;
       height: 100%;
       text-align: center;
@@ -173,8 +173,11 @@ hr{
   font-family: 'Righteous', cursive;
 }
 footer {
-  font-family: 'Righteous', cursive;
+  font-family: 'Josefin Sans', sans-serif;
   opacity: 0.3;
+}
+footer:hover{
+  opacity: 1;
 }
 .nav-item{
   padding-left: 50px;
@@ -183,7 +186,10 @@ footer {
 }
 #college{
   color: white;
-  font-family: 'Bowlby One SC', cursive;
+  font-family: 'Playfair Display SC', serif;  
+}
+#college:hover{
+  color: #ffc107;
 }
 /*icons*/
 .sbuttons {
@@ -297,7 +303,7 @@ footer {
 /*text animation*/
 .textANI {
   font-size: 4vw;
-  font-family: 'Bowlby One SC', cursive;
+  font-family: 'Orbitron', sans-serif;
   text-align: left;
 }
 .textANI span {
@@ -417,17 +423,17 @@ a.repeat:hover {
 @keyframes sideSlide {
 	60% {
 		transform: translate(20px, 0) scale(1);
-		color: #fff;
+		color: #ffc107;
 	}
  
 	80% {
 		transform: translate(20px, 0) scale(1);
-		color: #ccff00;
+		color: #111;
 	}
  
 	99% {
 		transform: translate(0) scale(1.2);
-		color: #aaf0d1;
+		color: #fff;
 	}
  
 	100% {
