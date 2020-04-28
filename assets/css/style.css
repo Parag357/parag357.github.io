@@ -61,9 +61,10 @@ hr{
     width: 40%;
     height: auto;
     border-radius: 20px;
-    border: 5px solid #ffc107;
-    padding: 0.4rem;
+    border: 5px solid #fff;
+    padding: 0.0rem;
     margin: 0.4rem;
+  box-shadow: 0 0 10px #fff050, 0 0 20px #ffc107;
   }
 
   .lightbox {
@@ -166,8 +167,14 @@ hr{
   font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 .card2{
-  border: 10px solid #ffc107;
+  border: 5px solid #fff;
   border-radius: 20px;
+  box-shadow: 0 0 10px #fff050, 0 0 20px #ffc107;
+}
+card2:hover{
+  border: 5px solid #fff;
+  border-radius: 20px;
+
 }
 .navbar{
   font-family: 'Righteous', cursive;
@@ -308,6 +315,7 @@ footer:hover{
   font-size: 4vw;
   font-family: 'Orbitron', sans-serif;
   text-align: left;
+  text-shadow: 0 0 10px #fff050, 0 0 20px #ffc107;
 }
 .textANI span {
 	display: inline-block;
@@ -442,7 +450,7 @@ a.repeat:hover {
 	100% {
 		transform: translate(0) scale(1);
 		opacity: 1;
-		color: #ffc107;
+		color: #fff;
 	}
 }
 /*certificates*/
