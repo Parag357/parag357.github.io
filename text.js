@@ -1,5 +1,5 @@
 $(function(){
-	$('.repeat').click(function(){
+	$('.repeat').hover(function(){
     	var classes =  $(this).parent().attr('class');
         $(this).parent().attr('class', 'textANI');
         var indicator = $(this);
