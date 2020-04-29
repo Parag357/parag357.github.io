@@ -484,8 +484,8 @@ hr.new1{
 .modal-img,.model-vid{
 margin: 0;
 padding: 0;
-width: 120%;
-height: 120%;
+width: 100%;
+height: 100%;
 display: table
 }
 .modal-body{
