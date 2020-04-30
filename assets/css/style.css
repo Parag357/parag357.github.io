@@ -231,7 +231,7 @@ footer:hover{
 .sbutton:active,
 .sbutton:focus,
 .sbutton:hover {
-  box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
+   box-shadow: 0 0 10px #fff, 0 0 20px #fff050, 0 0 30px #ffc107;
 }
 .sbutton:not(:last-child) {
   width: 60px;
