@@ -299,7 +299,12 @@ footer:hover{
   opacity: 1;
 }
 .sbutton.mainsbutton {
+  background: transparent;
+  border: 2px solid #ffc107;
+}
+.sbutton.mainsbutton:hover {
   background: #ffc107;
+  border: 2px solid #ffc107;
 }
 .sbutton.github {
   background: #f4cbb2;
@@ -732,4 +737,21 @@ padding-right: 16px;
   .button-hover a{
     font-size: 10px;
   }
+}
+/*top scroller*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 50px; /* Place the button at the bottom of the page */
+  left: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border-radius: 50%;
+  border: 2px solid #ffc107;
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 20px; /* Some padding */
+}
+
+#myBtn:hover {
+  background-color: #ffc107; 
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff050, 0 0 30px #ffc107;
 }
