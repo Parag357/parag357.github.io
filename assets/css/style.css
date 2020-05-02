@@ -58,11 +58,11 @@ hr{
     text-align: center;
 }
 .thumbnail {
-    width: 30%;
+    width: 25%;
     height: auto;
     border-radius: 50%;
     padding: 0.0rem;
-    margin: 0.5rem;
+    margin: 1rem;
   box-shadow: 0 0 10px #fff050, 0 0 20px #ffc107, 0 0 30px #ffc222;
   }
 
@@ -742,16 +742,14 @@ padding-right: 16px;
   position: fixed; /* Fixed/sticky position */
   bottom: 50px; /* Place the button at the bottom of the page */
   left: 15px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
+  z-index: 999; /* Make sure it does not overlap */
   border-radius: 50%;
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px;
+  padding-left: 17px;
+  padding-right: 17px;
   border: 0px;
 }
-
-#myBtn:hover {
-  background: transparent;
-  opacity: 0.5  ;
-  color: #ffc107;
-
+#myBtn:hover{
+  box-shadow: 0 0 10px #fff050, 0 0 20px #ffc107;
 }
