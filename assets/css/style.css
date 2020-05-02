@@ -166,7 +166,7 @@ hr{
   font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 .card2{
-  border: 5px solid #fff;
+  border: 5px solid transparent;
   border-radius: 20px;
   box-shadow: 0 0 10px #fff050, 0 0 20px #ffc107;
 }
