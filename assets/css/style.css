@@ -60,11 +60,10 @@ hr{
 .thumbnail {
     width: 30%;
     height: auto;
-    border-radius: 20px;
-    border: 5px solid #fff;
+    border-radius: 50%;
     padding: 0.0rem;
-    margin: 0.4rem;
-  box-shadow: 0 0 10px #fff050, 0 0 20px #ffc107;
+    margin: 0.5rem;
+  box-shadow: 0 0 10px #fff050, 0 0 20px #ffc107, 0 0 30px #ffc222;
   }
 
   .lightbox {
@@ -680,13 +679,12 @@ padding-right: 16px;
   .thumbnail {
     width: 60%;
     height: auto;
-    border-radius: 20px;
-    border: 5px solid #fff;
+    border-radius: 50%;
     margin: 0.4rem;
   }
   .textANI {
-    font-size: 4vw;
-    text-align: left;
+    font-size: 4.5vw;
+    text-align: center;
   }
 }
 .card-title{
