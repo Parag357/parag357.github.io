@@ -757,12 +757,14 @@ padding-right: 16px;
     position: absolute;
     top: 50%;
     left: 50%;
+    background: #000222;
 }
 .loader .dots {
     position: absolute;
     padding: 10px;
     border-radius: 50%;
-    background: #f05855;
+    background: #ffc107;
+    box-shadow: 0 0 10px #fff050, 0 0 20px #ffc107;
     -webkit-animation: myani 1s ease-in-out 0s infinite;
     animation: myani 1s ease-in-out 0s infinite;
 }
