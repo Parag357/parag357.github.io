@@ -753,43 +753,50 @@ padding-right: 16px;
 #myBtn:hover{
   box-shadow: 0 0 10px #fff050, 0 0 20px #ffc107;
 }
-.overlay {
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  position: fixed;
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
-
-.overlay__inner {
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
+.loader .dots {
+    position: absolute;
+    padding: 10px;
+    border-radius: 50%;
+    background: #f05855;
+    -webkit-animation: myani 1s ease-in-out 0s infinite;
+    animation: myani 1s ease-in-out 0s infinite;
 }
-
-.overlay__content {
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
+.loader .dots:nth-child(1) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
 }
-
-.spinner {
-  width: 75px;
-  height: 75px;
-  display: inline-block;
-  border-width: 2px;
-  border-color: rgba(255, 255, 255, 0.05);
-  border-top-color: #fff;
-  animation: spin 1s infinite linear;
-  border-radius: 100%;
-  border-style: solid;
+.loader .dots:nth-child(2) {
+    -webkit-animation-delay: 0.15s;
+    animation-delay: 0.15s;
 }
-
-@keyframes spin {
-100% {
-  transform: rotate(360deg);
+.loader .dots:nth-child(3) {
+    -webkit-animation-delay: 0.30s;
+    animation-delay: 0.30s;
 }
+.loader .dots:nth-child(4) {
+    -webkit-animation-delay: 0.45s;
+    animation-delay: 0.45s;
+}
+ 
+ 
+ 
+@keyframes myani {
+    0% {
+        -webkit-transform: translateX(-100px);
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: translateX(100px);
+        transform: translateX(100px);
+        opacity: 0;
+    }
 }
