@@ -21,25 +21,10 @@
       @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
       @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
       </style>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-     <script>
-     $(window).load(function(){
-         $('.loader').rmove();
-         $('#particles-js').fadeIn();
-         var $container = $('.#particles-js');
-          $container.isotope({
-              filter: '*',
-              animationOptions: {
-                  queue: true
-              }
-          });
-          //do something after animation is complete
-     });
-     </script>
 </head>
-<body>
+<body onload="myfunc()">
 <!--loader try-->
-<div class="loader" id="loader">
+<div class="loader" id="loading">
   <div class="loader-inner">
   <div class="loader-line-wrap">
   <div class="loader-line"></div>
@@ -268,13 +253,20 @@
   </div>
   </footer>
     <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+      var preloader=document.getElementById('loading');
+      function myfunc(){
+        preloader.style.display='none';
+      }
+    </script>
 <script src="./assets/js/bootstrap.min.js"></script>
 <script src="./assets/js/jquery-3.3.1.slim.min.js"></script>
 <script src="./assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-<!--<script type="text/javascript" src="particles.js"></script>-->
+
 <script type="text/javascript" src="text.js"></script>
 <script type="text/javascript" src="app.js"></script><!--for particles-->
 <script type="text/javascript" src="aos.js"></script><!--for appearance animation-->
