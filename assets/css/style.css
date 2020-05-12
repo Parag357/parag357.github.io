@@ -819,34 +819,36 @@ padding-right: 16px;
 .loader-line-wrap:nth-child(5) { -webkit-animation-delay: -250ms; animation-delay: -250ms; }
 
 .loader-line-wrap:nth-child(1) .loader-line {
-  border-color: #ffc030;
+  border-color:  #fff70a;
   height: 90px;
   width: 90px;
   top: 7px;
 }
 .loader-line-wrap:nth-child(2) .loader-line {
-  border-color: #fff;
+  border-color: #fff824;
   height: 76px;
   width: 76px;
   top: 14px;
 }
 .loader-line-wrap:nth-child(3) .loader-line {
-  border-color: #ffc030;
+  border-color: #fff93d;
   height: 62px;
   width: 62px;
   top: 21px;
 }
 .loader-line-wrap:nth-child(4) .loader-line {
-  border-color: #fff;
+  border-color: #fffa5c;
   height: 48px;
   width: 48px;
   top: 28px;
+
 }
 .loader-line-wrap:nth-child(5) .loader-line {
-  border-color: #ffc030;
+  border-color: #fffa75 ;
   height: 34px;
   width: 34px;
   top: 35px;
+ 
 }
 @keyframes fadeOut{
   100%{
