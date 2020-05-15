@@ -21,7 +21,7 @@ a.navbar-brand img{
   transition: transform 1s;
 }
 a.navbar-brand img:hover{
-  transform: rotateX(45deg) rotateY(45deg) rotateZ(45deg) scaleX(1.5) scaleY(1.5) scaleZ(1.5);
+  transform: scale(1.5);
 }
 .nav-item{
   color:#ff9800;
@@ -73,10 +73,10 @@ a.navbar-brand img:hover{
     padding: 0.0rem;
     margin: 1rem;
   box-shadow: 0 0 10px #fff050, 0 0 20px #ffc107, 0 0 30px #ffc222;
-  transition: transform 1s;
+  transition: transform 2s;
   }
   .thumbnail:hover{
-    transform: scale(1.1);
+    transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg) scaleX(1.2) scaleY(1.2) scaleZ(1.2);
     box-shadow: 0 0 10px #fff050, 0 0 20px #ffc107 ,0 0 30px #ffc222;
   }
   .navbar-brand img{
