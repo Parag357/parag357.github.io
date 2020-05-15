@@ -208,10 +208,16 @@ footer:hover{
   transition: transform 1s;
 }
 #college1:hover{
-  transform:rotateX(45deg) rotateY(15deg) rotateZ(45deg) scaleX(1.2) scaleY(1.5) scaleZ(1.5);
+  transform:rotateX(15deg) rotateY(15deg) rotateZ(15deg) scaleX(1.2) scaleY(1.5) scaleZ(1.5);
 }
 #college:hover{
   color: #ffc107;
+}
+h1.card2-header{
+  transition: transform 1s;
+}
+h1.card2-header:hover{
+  transform:rotateX(15deg) rotateY(15deg) rotateZ(15deg) scaleX(1.2) scaleY(1.5) scaleZ(1.5); 
 }
 /*icons*/
 .sbuttons {
