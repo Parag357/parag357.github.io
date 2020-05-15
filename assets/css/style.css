@@ -17,6 +17,12 @@ hr{
   padding: 0 0 0 0;
   z-index:50; 
 }
+a.navbar-brand img{
+  transition: transform 1s;
+}
+a.navbar-brand img:hover{
+  transform: rotateX(45deg) rotateY(45deg) rotateZ(45deg) scaleX(1.5) scaleY(1.5) scaleZ(1.5);
+}
 .nav-item{
   color:#ff9800;
 }
@@ -199,6 +205,10 @@ footer:hover{
 }
 #college1{
   font-family: 'Bowlby One SC', cursive;
+  transition: transform 1s;
+}
+#college1:hover{
+  transform:rotateX(45deg) rotateY(15deg) rotateZ(45deg) scaleX(1.2) scaleY(1.5) scaleZ(1.5);
 }
 #college:hover{
   color: #ffc107;
@@ -757,9 +767,13 @@ padding-right: 16px;
   padding-left: 17px;
   padding-right: 17px;
   border: 0px;
+  background: transparent;
+  color: #ffc107;
 }
 #myBtn:hover{
   box-shadow: 0 0 10px #fff050, 0 0 20px #ffc107;
+  background-color: #ffc107;
+  color: #000;
 }
 .loader {
   background: #020e08;
