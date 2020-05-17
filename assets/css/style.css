@@ -272,6 +272,9 @@ h1.card2-header:hover{
   -webkit-transition-delay: 25ms;
   transition-delay: 25ms;
 }
+.sbutton:nth-last-child(1):hover{
+  opacity: 0;
+}
 .sbutton:not(:last-child):nth-last-child(2) {
   -webkit-transition-delay: 20ms;
   transition-delay: 20ms;
@@ -283,16 +286,7 @@ h1.card2-header:hover{
 .sbutton:not(:last-child):nth-last-child(4) {
   -webkit-transition-delay: 60ms;
   transition-delay: 60ms;
-}
-.sbutton:not(:last-child):nth-last-child(5) {
-  -webkit-transition-delay: 80ms;
-  transition-delay: 80ms;
-}
-.sbutton:not(:last-child):nth-last-child(6) {
-  -webkit-transition-delay: 100ms;
-  transition-delay: 100ms;
-}
- 
+} 
 [tooltip]:before {
   font-family: 'Roboto';
   font-weight: 600;
