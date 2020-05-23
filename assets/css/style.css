@@ -287,6 +287,10 @@ h1.card2-header:hover{
   -webkit-transition-delay: 60ms;
   transition-delay: 60ms;
 } 
+.sbutton:not(:last-child):nth-last-child(5) {
+  -webkit-transition-delay: 80ms;
+  transition-delay: 80ms;
+} 
 [tooltip]:before {
   font-family: 'Roboto';
   font-weight: 600;
@@ -325,6 +329,9 @@ h1.card2-header:hover{
 }
 .sbutton.mail {
   background: #b23121;
+}
+.sbutton.call {
+  background: #ffc107;
 }
 /*text animation*/
 .textANI {
