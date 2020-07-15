@@ -10,9 +10,9 @@ Home
 ![](assets/screenshots/home.png)
 
 
-Home
+About Me
 
-![](assets/screenshots/home.png)
+![](assets/screenshots/about.png)
 
 
 Home
