@@ -15,9 +15,9 @@ About Me
 ![](assets/screenshots/about.png)
 
 
-Home
+Projects
 
-![](assets/screenshots/home.png)
+![](assets/screenshots/project.png)
 
 
 Home
