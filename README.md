@@ -20,6 +20,6 @@ Projects
 ![](assets/screenshots/project.png)
 
 
-Home
+Certificates
 
-![](assets/screenshots/home.png)
+![](assets/screenshots/certificate.png)
