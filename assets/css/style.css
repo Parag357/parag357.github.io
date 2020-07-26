@@ -250,6 +250,8 @@ h1.card2-header:hover{
 .sbutton:focus,
 .sbutton:hover {
    box-shadow: 0 0 10px #fff, 0 0 20px #fff050, 0 0 30px #ffc107;
+   transform:  scaleX(1.2) scaleY(1.2) scaleZ(1.2);
+
 }
 .sbutton:not(:last-child) {
   width: 60px;
