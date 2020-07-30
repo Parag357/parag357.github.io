@@ -5,21 +5,21 @@
 
 # Screenshots
 
-Home
+<b>Home</b>
 
 ![](assets/screenshots/home.png)
 
 
-About Me
+<b>About Me</b>
 
 ![](assets/screenshots/about.png)
 
 
-Projects
+<b>Projects</b>
 
 ![](assets/screenshots/project.png)
 
 
-Certificates
+<b>Certificates</b>
 
 ![](assets/screenshots/certificate.png)
