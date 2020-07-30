@@ -1,5 +1,5 @@
 
-# My portfolio, showcasing my skills, internships, projects,and certifications.
+# My portfolio showcasing my skills, internships, projects and certifications.
 
 Visit [parag357.me](http://parag357.me/) or click on the icon below:
 
