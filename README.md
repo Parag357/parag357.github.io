@@ -1,7 +1,7 @@
 
 # My portfolio showcasing my skills, internships, projects and certifications.
 
-Visit [parag357.me](http://parag357.github.io/) or click on the icon below:
+Visit [parag357.github.io](http://parag357.github.io/) or click on the icon below:
 
 <a href="http://parag357.me/"><img src="./assets/images/thumbnail.png" width="50" height="50"/></a>
 
