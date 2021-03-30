@@ -3,7 +3,7 @@
 
 Visit [parag357.github.io](http://parag357.github.io/) or click on the icon below:
 
-<a href="http://parag357.me/"><img src="./assets/images/thumbnail.png" width="50" height="50"/></a>
+<a href="http://parag357.github.io/"><img src="./assets/images/thumbnail.png" width="50" height="50"/></a>
 
 # Screenshots
 
