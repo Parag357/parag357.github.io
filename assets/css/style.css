@@ -517,16 +517,17 @@ hr.new1{
   box-shadow: 0 0 5px #fff050, 0 0 10px #ffc107;
 }
 .modal-img,.model-vid{
-margin: 0;
-padding: 0;
-width: 100%;
-height: 100%;
-display: table;
-box-shadow: 0 0 10px #fff050, 0 0 20px #ffc107;
-background: rgba(0,0,0,1);
-}
-.modal-body{
-padding: 0px;
+  margin: 0;
+  padding: 0;
+  width: 180%; /* Reduce from 180% to a manageable size */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px #fff050, 0 0 20px #ffc107;
+  background: rgba(0, 0, 0, 1);
 }
 .modal-dialog {
 height: 100%;
