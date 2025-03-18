@@ -519,7 +519,7 @@ hr.new1{
 .modal-img,.model-vid{
   margin: 0;
   padding: 0;
-  width: 180%; /* Reduce from 180% to a manageable size */
+  width: 100%; /* Reduce from 180% to a manageable size */
   height: auto; /* Maintain aspect ratio */
   display: block;
   position: absolute;
